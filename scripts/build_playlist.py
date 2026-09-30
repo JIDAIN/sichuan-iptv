@@ -8,11 +8,13 @@ import re
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMEOUT = 20
 MAX_BACKUPS = 3
 UA = "Mozilla/5.0 Sichuan-IPTV/1.0"
+NON_LIVE_SUFFIXES = (".mp4", ".mkv", ".avi", ".mov", ".flv")
 
 
 @dataclass
@@ -59,18 +61,39 @@ def fetch(url: str) -> str:
         return response.read().decode("utf-8-sig", errors="replace")
 
 
+def alias_in_key(alias: str, key: str) -> bool:
+    if key == alias:
+        return True
+    start = key.find(alias)
+    if start < 0 or len(alias) < 4:
+        return False
+    after = key[start + len(alias):]
+    # Prevent CCTV1 matching CCTV17, and CCTV5 matching CCTV5+.
+    if alias[-1:].isdigit() and after[:1].isdigit():
+        return False
+    if alias[-1:] == "5" and after.startswith("+"):
+        return False
+    return True
+
+
 def match(name: str, wanted: list[Wanted]) -> Wanted | None:
     key = norm(name)
-    # Longer aliases first, reducing CCTV-5 and CCTV-5+ ambiguity.
     candidates = sorted(
         ((norm(alias), item) for item in wanted for alias in item.aliases),
         key=lambda x: len(x[0]),
         reverse=True,
     )
     for alias, item in candidates:
-        if key == alias or (len(alias) >= 4 and alias in key):
+        if alias_in_key(alias, key):
             return item
     return None
+
+
+def is_candidate_url(url: str) -> bool:
+    parts = urlsplit(url)
+    if parts.scheme not in {"http", "https"}:
+        return False
+    return not parts.path.lower().endswith(NON_LIVE_SUFFIXES)
 
 
 def main() -> None:
@@ -89,7 +112,7 @@ def main() -> None:
             count = 0
             for name, url in parse_m3u(text):
                 item = match(name, wanted)
-                if not item or url in found[item.canonical]:
+                if not item or not is_candidate_url(url) or url in found[item.canonical]:
                     continue
                 if len(found[item.canonical]) < MAX_BACKUPS:
                     found[item.canonical].append(url)
