@@ -1,13 +1,13 @@
 # 构建报告
 
 - 目标频道：39
-- 输出候选线路：53
-- 缺失频道：11
+- 输出候选线路：42
+- 缺失频道：12
 
 ## 来源状态
 
-- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 35 条候选）
-- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 18 条候选）
+- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 34 条候选）
+- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 8 条候选）
 
 ## 尚未找到
 
@@ -22,5 +22,6 @@
 - 成都影视文艺
 - 成都公共
 - 成都少儿
+- 广东卫视
 
 > 云端构建结果只是候选，不代表成都移动家庭网络一定可播。
