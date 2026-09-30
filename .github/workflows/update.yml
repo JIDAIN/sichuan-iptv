@@ -1,0 +1,39 @@
+name: Update candidate playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1,13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build conservative candidate playlist
+        run: python scripts/build_playlist.py
+
+      - name: Commit changed candidate and report
+        run: |
+          if git diff --quiet -- output/parents-test.m3u output/report.md; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/parents-test.m3u output/report.md
+          git commit -m "chore: refresh candidate playlist"
+          git push
