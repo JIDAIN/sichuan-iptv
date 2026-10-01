@@ -1,13 +1,13 @@
 # 构建报告
 
 - 目标频道：39
-- 输出候选线路：42
+- 输出候选线路：43
 - 缺失频道：11
 
 ## 来源状态
 
 - OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 35 条候选）
-- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 7 条候选）
+- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 8 条候选）
 
 ## 尚未找到
 
