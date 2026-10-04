@@ -34,7 +34,7 @@ http://192.151.150.154/live/cctv8k.m3u8
 #EXTINF:-1 group-title="央视",CCTV-9 纪录
 http://t.061899.xyz/tl/tl.php?id=cctv9
 #EXTINF:-1 group-title="央视",CCTV-9 纪录 · 备用1
-https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=7cbe8a61b55ee5c9723c4b7e17f94aac
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=f0339ef1888e75f5e149e65f3d181143
 #EXTINF:-1 group-title="央视",CCTV-10 科教
 http://t.061899.xyz/tl/tl.php?id=cctv10
 #EXTINF:-1 group-title="央视",CCTV-11 戏曲
@@ -42,17 +42,13 @@ http://t.061899.xyz/tl/tl.php?id=cctv11
 #EXTINF:-1 group-title="央视",CCTV-12 社会与法
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 group-title="央视",CCTV-13 新闻
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
+http://t.061899.xyz/tl/tl.php?id=cctv13
 #EXTINF:-1 group-title="央视",CCTV-13 新闻 · 备用1
 http://go.bkpcp.top/mg/cctv13
 #EXTINF:-1 group-title="央视",CCTV-14 少儿
 http://t.061899.xyz/tl/tl.php?id=cctv14
 #EXTINF:-1 group-title="央视",CCTV-14 少儿 · 备用1
 http://74.91.26.218:82/live/cctv14hd.m3u8
-#EXTINF:-1 group-title="央视",CCTV-15 音乐
-http://t.061899.xyz/tl/tl.php?id=cctv15
-#EXTINF:-1 group-title="央视",CCTV-15 音乐 · 备用1
-https://piccpndks.v.kcdnvip.com/audio/cctv15_2/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV-16 奥林匹克
 http://t.061899.xyz/tl/tl.php?id=cctv16
 #EXTINF:-1 group-title="央视",CCTV-16 奥林匹克 · 备用1
@@ -63,6 +59,8 @@ http://t.061899.xyz/tl/tl.php?id=cctv17
 http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 group-title="主流卫视",湖南卫视
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
+#EXTINF:-1 group-title="主流卫视",湖南卫视 · 备用1
+http://8.138.7.223/tv/api.php?id=hnws4k
 #EXTINF:-1 group-title="主流卫视",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="主流卫视",江苏卫视
