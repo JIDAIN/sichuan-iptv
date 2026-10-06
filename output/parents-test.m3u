@@ -22,9 +22,9 @@ https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 #EXTINF:-1 group-title="央视",CCTV-6 电影
 http://t.061899.xyz/tl/tl.php?id=cctv6
 #EXTINF:-1 group-title="央视",CCTV-6 电影 · 备用1
-http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
-#EXTINF:-1 group-title="央视",CCTV-6 电影 · 备用2
 https://live.eac-news.com/CCTV/streams/cctv6.m3u8
+#EXTINF:-1 group-title="央视",CCTV-6 电影 · 备用2
+http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 group-title="央视",CCTV-7 国防军事
 http://t.061899.xyz/tl/tl.php?id=cctv7
 #EXTINF:-1 group-title="央视",CCTV-8 电视剧
@@ -34,7 +34,7 @@ http://192.151.150.154/live/cctv8k.m3u8
 #EXTINF:-1 group-title="央视",CCTV-9 纪录
 http://t.061899.xyz/tl/tl.php?id=cctv9
 #EXTINF:-1 group-title="央视",CCTV-9 纪录 · 备用1
-https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=3062fe219b82ee8ba2626378bccbeadb
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=afac96105d27990a96d676b1d46724c9
 #EXTINF:-1 group-title="央视",CCTV-10 科教
 http://t.061899.xyz/tl/tl.php?id=cctv10
 #EXTINF:-1 group-title="央视",CCTV-11 戏曲
@@ -70,12 +70,14 @@ http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 group-title="主流卫视",东方卫视
 http://t.061899.xyz/tl/tl.php?id=dfws
 #EXTINF:-1 group-title="主流卫视",东方卫视 · 备用1
-http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 group-title="主流卫视",广东卫视
 http://t.061899.xyz/tl/tl.php?id=gdws
 #EXTINF:-1 group-title="主流卫视",深圳卫视
 http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
 #EXTINF:-1 group-title="主流卫视",深圳卫视 · 备用1
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
+#EXTINF:-1 group-title="主流卫视",安徽卫视
+https://piccpndks.v.kcdnvip.com/audio/anhui_2/index.m3u8
 #EXTINF:-1 group-title="主流卫视",山东卫视
 http://t.061899.xyz/tl/tl.php?id=sdws
