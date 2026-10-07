@@ -6,11 +6,12 @@
 
 ## 来源状态
 
-- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 30 条候选）
-- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 9 条候选）
+- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 31 条候选）
+- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 8 条候选）
 
 ## 尚未找到
 
+- CCTV-10 科教
 - 四川卫视
 - 四川新闻
 - 四川经济
@@ -24,7 +25,6 @@
 - 成都公共
 - 成都少儿
 - 北京卫视
-- 广东卫视
 - 安徽卫视
 
 > 云端构建结果只是候选，不代表成都移动家庭网络一定可播。
