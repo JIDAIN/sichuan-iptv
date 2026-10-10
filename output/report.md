@@ -1,17 +1,16 @@
 # 构建报告
 
 - 目标频道：39
-- 输出候选线路：40
-- 缺失频道：14
+- 输出候选线路：41
+- 缺失频道：13
 
 ## 来源状态
 
 - OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 32 条候选）
-- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 8 条候选）
+- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 9 条候选）
 
 ## 尚未找到
 
-- 四川卫视
 - 四川新闻
 - 四川经济
 - 四川影视文艺
