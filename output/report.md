@@ -1,17 +1,18 @@
 # 构建报告
 
 - 目标频道：39
-- 输出候选线路：31
-- 缺失频道：18
+- 输出候选线路：26
+- 缺失频道：20
 
 ## 来源状态
 
-- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 21 条候选）
+- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 16 条候选）
 - OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 10 条候选）
 
 ## 尚未找到
 
 - CCTV-2 财经
+- CCTV-3 综艺
 - CCTV-7 国防军事
 - CCTV-10 科教
 - CCTV-11 戏曲
@@ -26,6 +27,7 @@
 - 成都影视文艺
 - 成都公共
 - 成都少儿
+- 东方卫视
 - 北京卫视
 - 广东卫视
 - 山东卫视
