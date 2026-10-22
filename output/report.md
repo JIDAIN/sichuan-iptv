@@ -1,16 +1,22 @@
 # 构建报告
 
 - 目标频道：39
-- 输出候选线路：37
-- 缺失频道：15
+- 输出候选线路：25
+- 缺失频道：22
 
 ## 来源状态
 
-- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 29 条候选）
-- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 8 条候选）
+- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 15 条候选）
+- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 10 条候选）
 
 ## 尚未找到
 
+- CCTV-2 财经
+- CCTV-3 综艺
+- CCTV-5 体育
+- CCTV-7 国防军事
+- CCTV-10 科教
+- CCTV-11 戏曲
 - 四川卫视
 - 四川新闻
 - 四川经济
@@ -26,5 +32,6 @@
 - 北京卫视
 - 广东卫视
 - 安徽卫视
+- 山东卫视
 
 > 云端构建结果只是候选，不代表成都移动家庭网络一定可播。
