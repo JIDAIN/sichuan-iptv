@@ -1,12 +1,12 @@
 # 构建报告
 
 - 目标频道：39
-- 输出候选线路：28
-- 缺失频道：20
+- 输出候选线路：29
+- 缺失频道：19
 
 ## 来源状态
 
-- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 18 条候选）
+- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 19 条候选）
 - OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 10 条候选）
 
 ## 尚未找到
@@ -16,7 +16,6 @@
 - CCTV-7 国防军事
 - CCTV-10 科教
 - CCTV-11 戏曲
-- 四川卫视
 - 四川新闻
 - 四川经济
 - 四川影视文艺
