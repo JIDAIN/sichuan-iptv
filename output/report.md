@@ -6,8 +6,8 @@
 
 ## 来源状态
 
-- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 33 条候选）
-- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 7 条候选）
+- OK: https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u8（新增 31 条候选）
+- OK: https://iptv-org.github.io/iptv/countries/cn.m3u（新增 9 条候选）
 
 ## 尚未找到
 
